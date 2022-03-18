@@ -1,0 +1,27 @@
+.letter{
+    display: flex;
+    height: 2.2em;
+    width: 2.2em;
+    color: white;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0.1em;
+    border: solid 0.1em grey;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 58, 58);
+}
+
+.green{
+    background-color: #0e550e;
+}
+
+.purple{
+    background-color: #6b1a5e;
+}
+
+.black{
+    background-color: #1f1f1f;
+}

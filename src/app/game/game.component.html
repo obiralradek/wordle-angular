@@ -1,0 +1,7 @@
+<h1 class="title">WORDLE</h1>
+<div class="gameboard">
+    <app-row [row]="row" *ngFor="let row of game"></app-row>
+</div>
+<div class="keyboard">
+    <app-input [row]="game[currentRow]"></app-input>
+</div>

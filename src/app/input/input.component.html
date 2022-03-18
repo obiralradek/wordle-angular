@@ -1,0 +1,11 @@
+<div class="keyboard">
+    <div class="keyboard-row">
+        <app-inputbtn (click)="handleClick(val)" [text]="val" *ngFor="let val of krow1"></app-inputbtn>
+    </div>
+    <div class="keyboard-row">
+        <app-inputbtn (click)="handleClick(val)" [text]="val" *ngFor="let val of krow2"></app-inputbtn>
+    </div>
+    <div class="keyboard-row">
+        <app-inputbtn (click)="handleClick(val)" [text]="val" *ngFor="let val of krow3"></app-inputbtn>
+    </div>
+</div>

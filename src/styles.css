@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+@media (max-width: 600px) {
+    :root{
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 550px) {
+    :root{
+        font-size: 0.8em;
+    }
+}
+
+
+@media (max-width: 500px) {
+    :root{
+        font-size: 0.7em;
+    }
+}
+
+
+
+
+body{
+    background-color: #222222;
+    color: rgb(240, 240, 240);
+}
